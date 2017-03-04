@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "AOPOD知乎扩展",
+  "description": "提供需要的功能",
+  "version": "1.0",
+
+  "content_scripts": [{
+    "js": ["copy-question.js"],
+    "matches": [
+      "https://www.zhihu.com/question/*"
+    ]
+  }, {
+    "css": ["adblock.css"],
+    "matches": [
+      "https://*.zhihu.com/*"
+    ]
+  }]
+}

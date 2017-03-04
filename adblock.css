@@ -1,0 +1,8 @@
+/*
+ * 2017-03-04
+ * 隐藏Adblock提示
+ * Copyright (c) 2017 aopod (http://www.aopod.com)
+ */
+.AdblockBanner {
+  display: none !important;
+}
