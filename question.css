@@ -1,0 +1,79 @@
+/*
+ * 2017-03-05
+ * Question页面调整
+ * Copyright (c) 2017 aopod (http://www.aopod.com)
+ */
+
+/*
+ * Sticky Header
+ */
+ @media (min-width: 1200px) {
+ 	/*
+ 	 * 大屏幕
+ 	 */
+	.PageHeader .QuestionHeader-content {
+		min-width: 1000px;
+		max-width: 1366px !important;
+		width: 90% !important;
+	}
+
+	.AppHeader.is-hidden .AppHeader-inner {
+		transform: none !important;
+	}
+
+	.PageHeader .QuestionHeader-main {
+		display: none;
+	}
+
+	.PageHeader .QuestionHeader-side {
+		margin-left: 620px;
+	}
+}
+
+/*
+ * 头部问题区域增宽
+ */
+.AppHeader-inner, div.QuestionHeader > div {
+	min-width: 1000px !important;
+	max-width: 1366px !important;
+	width: 90% !important;
+}
+
+.QuestionHeader > div.QuestionHeader-footer {
+	margin: auto;
+}
+
+.QuestionHeader div.QuestionHeader-footer-inner {
+	max-width: 1366px !important;
+	width: 100% !important;
+	margin: auto;
+}
+
+.Question-sideColumn {
+	width: 28% !important;
+}
+
+.QuestionHeader .QuestionHeader-content .QuestionHeader-main {
+	width: 100%;
+}
+
+.QuestionHeader .QuestionHeader-side {
+	text-align: center;
+}
+
+.QuestionHeader .QuestionFollowStatus, .QuestionHeader .QuestionFollowStatus > div {
+	width: 100%;
+}
+
+/*
+ * 内容区域增宽
+ */
+.Question-mainColumn {
+	width: 71% !important;
+}
+
+.Question-main {
+	max-width: 1366px !important;
+	width: 90% !important;
+	padding: 0 !important;
+}
