@@ -9,7 +9,7 @@ AOPOD知乎扩展
 
 - Clone之
 	
-	> git clone git@github.com:aopod/aopod-zhihu-extension.git
+	> git clone https://github.com/aopod/aopod-zhihu-extension.git
 
 - Chrome设置之
 
