@@ -18,10 +18,17 @@ AOPOD知乎扩展
 	3. `Load unpacked extension`选择clone下来的repository
 	4. 就酱
 
-## Version 1.0
+## 版本更新说明
+
+### Version 1.0
 
 - 隐藏顶部Adblock提示
 - 允许绕过问题页面禁止复制的限制
+
+### Version 1.1
+
+- 提供问题页宽屏访问
+- 导航栏下拉不隐藏搜索框，去除下拉时标题显示（非小屏幕情况）
 
 ## 问题和建议
 
