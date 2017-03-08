@@ -37,6 +37,7 @@
 	min-width: 1000px !important;
 	max-width: 1366px !important;
 	width: 90% !important;
+	margin: auto;
 }
 
 .QuestionHeader > div.QuestionHeader-footer {
