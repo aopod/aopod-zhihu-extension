@@ -30,6 +30,10 @@ AOPOD知乎扩展
 - 提供问题页宽屏访问
 - 导航栏下拉不隐藏搜索框，去除下拉时标题显示（非小屏幕情况）
 
+## Version 1.2
+
+- 增加生成二维码功能
+
 ## 问题和建议
 
 有问题欢迎在[Github Issues](https://github.com/aopod/aopod-zhihu-extension/issues)中提出，或者在[博客文章](http://www.aopod.com/2017/03/05/zhihu-extension/)底部留言。
