@@ -1,3 +1,8 @@
+/*
+ * 2017-03-09
+ * 二维码样式
+ * Copyright (c) 2017 aopod (http://www.aopod.com)
+ */
 
 #aopod_extension_qr_code {
 	height: 100px;
@@ -12,7 +17,7 @@
 	z-index: 2147483647;
 }
 
-#aopod_extension_qr_code.show {
+#aopod_extension_qr_code.ae_show {
 	display: block;
 }
 
@@ -36,4 +41,38 @@
 #aopod_extension_qr_code_content img {
 	margin: 0;
 	padding: 0;
+}
+
+#aopod_extension_qr_code_sel {
+	position: absolute;
+	height: 30px;
+	top: -30px;
+	left: 0;
+}
+
+#aopod_extension_qr_code_content_sel > div {
+	float: left;
+	margin: 0;
+	padding: 10px 5px 10px 10px;
+	cursor: pointer;
+}
+
+#aopod_extension_qr_code_content_sel > div:hover {
+	background-color: rgb(240, 240, 240);
+}
+
+#aopod_extension_qr_code_content_sel.ae_hide > div {
+	display: none;
+}
+
+#aopod_extension_qr_code_content_sel > div.ae_selected {
+	font-weight: bold;
+}
+
+#aopod_extension_qr_code_content_sel > input {
+	clear: both;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 250px;
 }
