@@ -34,6 +34,10 @@ AOPOD知乎扩展
 
 - 增加生成二维码功能
 
+## Version 1.2.1
+
+- 如果页面允许，可生成iOS URL相关二维码
+
 ## 问题和建议
 
 有问题欢迎在[Github Issues](https://github.com/aopod/aopod-zhihu-extension/issues)中提出，或者在[博客文章](http://www.aopod.com/2017/03/05/zhihu-extension/)底部留言。

@@ -1,3 +1,9 @@
+/*
+ * 2017-03-09
+ * popup
+ * Copyright (c) 2017 aopod (http://www.aopod.com)
+ */
+
 (function() {
   var idElement = function(idstr) {
     return document.getElementById(idstr);
