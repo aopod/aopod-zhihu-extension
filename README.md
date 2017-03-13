@@ -38,6 +38,14 @@ AOPOD知乎扩展
 
 - 如果页面允许，可生成iOS URL相关二维码
 
+## Version 1.3.0
+
+- 问题页文字大小调整
+	
+	* `0` 恢复默认
+	* `-` 文字缩小
+	* '=' 文字增大
+
 ## 问题和建议
 
 有问题欢迎在[Github Issues](https://github.com/aopod/aopod-zhihu-extension/issues)中提出，或者在[博客文章](http://www.aopod.com/2017/03/05/zhihu-extension/)底部留言。
