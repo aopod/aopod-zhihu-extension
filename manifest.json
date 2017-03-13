@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "AOPOD知乎扩展",
-  "description": "提供部分额外的功能，主要为：1、问题页绕过禁止复制；2、问题页宽屏访问；3、问题页面导航栏调整；4、隐藏顶部Adblock提示；5、允许在当前页面生成二维码；6、如果页面允许，可生成iOS URL相关二维码。",
-  "version": "1.2.1",
+  "description": "知乎扩展，介绍详见: http://www.aopod.com/2017/03/05/zhihu-extension/",
+  "version": "1.3.0",
 
   "permissions": [
     "tabs", "<all_urls>"
