@@ -78,3 +78,8 @@
 	width: 90% !important;
 	padding: 0 !important;
 }
+
+.App-main span > .Comments-Packup-Button {
+	left: 64% !important;
+	transform: translateX(-100%);
+}
