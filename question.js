@@ -18,7 +18,7 @@
 			custom_style_sheet.type = 'text/css';
 			document.head.appendChild(custom_style_sheet);
 		}
-		var base_element = document.getElementsByClassName('ContentItem-content')[0];
+		var base_element = document.getElementsByClassName('RichContent')[0];
 		var active_element = document.activeElement;
 		if (active_element) {
 			var nodeName = active_element.nodeName;
@@ -50,7 +50,7 @@
 				return;
 		}
 		if (target_font_size >= 10) {
-			custom_style_sheet.innerHTML = '.ContentItem-content {font-size: ' + target_font_size + 'px; line-height: 1.8em;}';
+			custom_style_sheet.innerHTML = '.RichContent {font-size: ' + target_font_size + 'px; line-height: 1.8em;}';
 		} else {
 			custom_style_sheet.innerHTML = '';
 		}
