@@ -46,6 +46,11 @@ AOPOD知乎扩展
 	* `-` 文字缩小
 	* `=` 文字增大
 
+### Version 1.3.1
+
+- 问题页面收起评论优化
+- 修复文字大小调整问题
+
 ## 问题和建议
 
 有问题欢迎在[Github Issues](https://github.com/aopod/aopod-zhihu-extension/issues)中提出，或者在[博客文章](http://www.aopod.com/2017/03/05/zhihu-extension/)底部留言。
