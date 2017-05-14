@@ -21,6 +21,11 @@
 		transform: none !important;
 	}
 
+	.AppHeader > div.PageHeader {
+		width: 80%;
+		z-index: 0;
+	}
+
 	.PageHeader .QuestionHeader-main {
 		display: none;
 	}
