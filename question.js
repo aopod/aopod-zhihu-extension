@@ -4,10 +4,11 @@
  * Copyright (c) 2017 aopod (http://www.aopod.com)
  */
 (function() {
-	var url = window.location.href;
+	let url = window.location.href;
 
-	var listClass = url.indexOf('/answer/') > -1 ? 'Question-mainColumn' : 'List-item';
-	var List_item = (document.getElementsByClassName(listClass) || [null])[0];
+	let listClass = url.indexOf('/answer/') > -1 ? 'div.Question-mainColumn' : 'div.List-item';
+	let first_list_item = document.querySelector(listClass);
+	let list_items_container = first_list_item ? first_list_item.parentElement : null;
 
 	document.body.addEventListener('keyup', function(e) {
 		var custom_style_sheet_id = 'aopod_zhihu_extension_style_sheet_id';
@@ -56,11 +57,12 @@
 		}
 	});
 
-	if (List_item == null) {
+	if (list_items_container == null) {
 		return;
 	}
 
-	List_item.addEventListener('copy', function(e) {
+	list_items_container.addEventListener('copy', function(e) {
+		console.log('asdf:');
 		var target = e.target;
 		if (target.nodeName === 'SPAN' && target.className.indexOf('CopyrightRichText-richText') > -1) {
 			return;
@@ -76,4 +78,5 @@
 			}
 		}
 	}, false);
+	
 })();
